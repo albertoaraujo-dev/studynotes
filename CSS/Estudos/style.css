@@ -1,0 +1,11 @@
+/*@import leva um pouco mais tempo pra carregar*/
+@import url("https://fonts.googleapis.com/css2?family=Antonio&display=swap");
+
+h1 {
+  color: blue;
+  font-family: "Antonio", sans-serif;
+}
+
+strong {
+  color: red;
+}

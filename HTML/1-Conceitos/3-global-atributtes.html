@@ -1,0 +1,44 @@
+<!--
+  Atributos Globais (aplicados a todas as tags) mais utilizados
+
+  - class
+  - contenteditable
+  - data-*
+  - hidden
+  - id
+  - style
+  - tabindex
+  - title
+-->
+
+<!--classes geralmente são usadas para classificar conteúdo, acessar no CSS e no JS-->
+<div class="carrinho">conteúdo</div>
+
+<!--pode editar o conteúdo, mas a edição é perdida ao salvar a página-->
+<div class="carrinho" contenteditable="true">conteúdo</div>
+
+<!--sempre usar - para separação ou escrever tudo junto-->
+<div class="carrinho" data-qualquer-nome-aqui="">conteúdo</div>
+
+<!-- hidden esconde o contéudo-->
+<div class="carrinho" hidden>conteúdo</div>
+
+<!--podemos usar apenas um id-único por página(até pode, mas não é recomentado pois vai gerar problema no JS ou CSS)-->
+<div class="carrinho" id="name">
+  <!--se for repetir algum nome, melhor usar class -->
+  conteúdo
+</div>
+
+<!--style serve pra adicionar css dentro do html, porém é melhor utilizar arquivo externo para CSS-->
+<div class="carrinho" style="color: red">conteúdo</div>
+
+<!--possibilita a navegação por TAB no site(excelente para pessoas sem acesso a mouse ou tem dificuldades para navegar no site)-->
+<div tabindex="1">conteúdo</div>
+<div tabindex="2">conteúdo</div>
+<div tabindex="3">conteúdo</div>
+
+<!--title define um título (ao descansar o mouse no conteúdo)-->
+<div title="Define um título">conteúdo</div>
+
+<!--utilizar o MDN para pesquisar sobre todos os atributos globais-->
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes
