@@ -11,6 +11,10 @@ $ git add *.md (todos os arquivos .md)
 
 $ git commit -m "Primeiro Commit" (-m é de message)
 
+* podemos fazer o add + commit caso o arquivo já esteja rastreado (o arquivo ja existe no repositório, e queremos apenas fazer modificações)
+  
+$ git coomit -am "commit com add"
+
 ## Estágios dos arquivos
 
 * Primeiro é iniciado(começando um projeto) ou clonado(usando um projeto pronto)
@@ -21,6 +25,18 @@ $ git commit -m "Primeiro Commit" (-m é de message)
 
 * Depois os arquivos da fase staged podem ser commitados
   * Nessa etapa os arquivos estão no banco de dados do repositório local (onde ficarão os pontos na história)
+
+## pull
+
+* puxa as alterações feitas online diretamente no repositório (github)
+  
+$ git pull
+
+## push
+
+* empurra as alterações feitas localmente (na máquina que estamos usando)
+
+$ git push
 
 ## Hash SHA-1
 

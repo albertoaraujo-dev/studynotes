@@ -10,7 +10,7 @@
 
 $ git status
 
-## Diff
+## Diff and Show
 
 * Mostra as alterações do working directory em comparação ao repositório (o que foi deletado, criado)
 
@@ -19,6 +19,13 @@ $ git dif
 * mostra a alterações de staged em comparação ao repositório
 
 $ git diff --staged
+
+* podemos usar o show para mostrar detalhes específicos do arquivo que já está no repositório (diferente do diff que mostra working directory e staged área)
+* é usado com a sintaxe comando pedaçodohash local/arquivo
+
+$ git show eddof18 -- src/views/* (* mostra tudo)
+$ git show eddof18 -- src/views/index.html (arquivo específico)
+
 
 ## Restore
 
@@ -53,7 +60,7 @@ $ git commit --amend -m "corrigindo alteração"
 
 ## Recuperando arquivos
 
-* podemos recupar arquivos usando o comando checkout junto com o começo da hash (7 digitos) do commit que deseja recuperar o arquivo, junto com o nome do arquivo
+* podemos recupar arquivos usando o comando checkout junto com o começo da hash do commit que deseja recuperar o arquivo, junto com o nome do arquivo
 
 $ git checkout eddof18 -- README.md (o arquivo vai pra staged area)
 
