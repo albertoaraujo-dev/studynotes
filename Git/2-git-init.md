@@ -11,6 +11,7 @@ na pasta .git (criada escondida dentro do repositório)
 * mostra o commit na branch, author e data
 
 $ git log
+
 $ git log --oneline (informação curta)
 
 $ git log -n 5 (5 últimos commits)
