@@ -37,3 +37,12 @@ $ ls -lha ( -a mostra tudo, inclusive arquivos arquivos)
 $ ls -R (mostra de forma recursiva a árvore de diretórios e arquivos nesses diretórios)
 
 $ ls -S (ordena os arquivos mostrados por tamanho)
+
+
+## Tipo do arquivo e informações / dono e modificações
+
+$ file nomedoarquivo.png
+  * mostra o tipo do arquivo e outras informações como tamanho (da imagem), cor etc..
+
+$ stat nomedoarquivo.png
+  * mostra informações sobre o dono, tamanho do arquivo, modificações etc..
