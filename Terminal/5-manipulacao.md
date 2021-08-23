@@ -8,7 +8,7 @@ $ mkdir nomedapasta nomedapasta2 nomedapasta3
   * podemos criar vários diretórios colocando o nome ao lado do outro
   
 $ mkdir -p nomedapasta/src nomedapasta/public nomedapasta/assets
-  * podemos usar -p para criar multiplos dentro dos diretórios criados
+  * podemos usar -p para criar múltiplos diretórios dentro dos diretórios criados
 
 ## Criar arquivos ou alterar data e hora de arquivos ou pastas
 

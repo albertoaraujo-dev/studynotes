@@ -18,10 +18,10 @@
 * também podemos ignorar tipos de arquivos usando * (para todos arquivos) e o tipo
   * Ex: *.md (ignora todos os arquivos do tipo .md)
 
-## limpar cache
+## limpar o cache
 
 * caso já tenha algum arquivo no repositório que não queremos
-* reseta o rastreamento
+* reinicia o rastreamento
 
 $ git rm -r --cached . (remove tudo que estava em cache)
 

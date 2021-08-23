@@ -1,7 +1,6 @@
-# Vendor Prefixes
+# Vendor Prefixes (Prefixos vendor ou prefixos do navegador)
 
-  Permite que browsers adicione features a fim de colocar em uso de alguma
-  novidade que vemos no CSS
+  Permite que browsers adicione features a fim de colocar em uso de alguma novidade que vemos no CSS
 
 ## Exemplo
 

@@ -9,10 +9,10 @@
 
 # Shortcuts (pode não funcionar em alguns terminais)
 
-* setinhas
+* setas
   * up - down (comandos anteriores, próximos)
 * ctrl
-  * setinhas (pula palavras) (Mac: option + arrow)
+  * setas (pula palavras) (Mac: option + arrow)
   * a (inicio da linha)
   * e (final da linha)
   * u (limpa a linha)

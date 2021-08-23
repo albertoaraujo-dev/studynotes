@@ -31,8 +31,7 @@
 
   * não irá considerar propriedades anteriores
   * valores não especificados irão assumir o valor padrão
-  * geralmente, a ordem descrita não importa, mas, se houver muitas propriedades
-  com valores semelhantes, poderemos encontrar problemas
+  * geralmente, a ordem descrita não importa, mas, se houver muitas propriedades com valores semelhantes, poderemos encontrar problemas
 
 ## Algumas propriedades que aceitam shorthand
 

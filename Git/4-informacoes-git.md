@@ -6,7 +6,7 @@
 
 ## Status
 
-* Mostra os status dos arquivos no repositório (que podem ser adiciondos, comitados)
+* Mostra os status dos arquivos no repositório (que podem ser adicionados, comitados)
 
 $ git status
 
@@ -37,7 +37,7 @@ $ git restore --staged . (restaura tudo do staged)
 
 ## Remover arquivos
 
-* Deleta e já adiciona na staged (é excluido completamente e não fica na lixeira)
+* Deleta e já adiciona na staged (é excluído completamente e não fica na lixeira)
 * Mesma coisa que remover na mão e rodar o git add
 
 $ git rm nomedoarquivo.txt
@@ -60,7 +60,7 @@ $ git commit --amend -m "corrigindo alteração"
 
 ## Recuperando arquivos
 
-* podemos recupar arquivos usando o comando checkout junto com o começo da hash do commit que deseja recuperar o arquivo, junto com o nome do arquivo
+* podemos recuperar arquivos usando o comando checkout junto com o começo da hash do commit que deseja recuperar o arquivo, junto com o nome do arquivo
 
 $ git checkout eddof18 -- README.md (o arquivo vai pra staged area)
 
@@ -69,10 +69,10 @@ $ git checkout eddof18 -- README.md (o arquivo vai pra staged area)
 
 ## Removendo arquivos não rastreados
 
-* cuidado com o uso, é ireversível
+* cuidado com o uso, é irreversível
 
 $ git clean -n (mostra o que o git irá remover)
-$ git clean -f (deleta de forma permanente os quivos não rastreados)
+$ git clean -f (deleta de forma permanente os arquivos não rastreados)
 
 ## Revertendo commit
 

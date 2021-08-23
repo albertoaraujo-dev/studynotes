@@ -6,10 +6,8 @@
 
 ## Identidade
 
-* É importante porque cada commit usa essa informação, e ela é carimbada de forma
-  imutável nos commits que você começa a criar
-* Se você quiser substituir essa informação com nome diferente para um projeto
-  específico, você pode rodar o comando sem a opção --global dentro do projeto
+* É importante porque cada commit usa essa informação, e ela é carimbada de forma imutável nos commits que você começa a criar
+* Se você quiser substituir essa informação com nome diferente para um projeto específico, você pode rodar o comando sem a opção --global dentro do projeto
 
 $ git config --global user.name "Seu Nome"
 $ git config --global user.email "seuemail@gmail.com"

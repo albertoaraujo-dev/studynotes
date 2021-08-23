@@ -1,4 +1,4 @@
-# At-rules
+# At-rules (nas regras)
 
   * Está relacionado ao comportamento do CSS
   * Começa com sinal de @ seguido do identificador e valor
@@ -18,7 +18,7 @@
   }
     
   /*- @keyframes (Animação)*/
-  @keyframe nameofanimation {
+  @keyframe nomedaanimação {
     regras aqui;
   }
     

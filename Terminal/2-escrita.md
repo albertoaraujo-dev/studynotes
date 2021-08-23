@@ -11,7 +11,7 @@ Ex: ls (listar diretórios)
 * geralmente começa com traço -
 * geralmente, somente uma letra (mas podem ser usados juntos com outros)
   * Ex: $ ls -l mostra a lista de diretórios "complexa" (mais difícil de entender os tamanhos dos arquivos)
-  * Ex: $ ls -lh (human readable, mostra os tamanhos em bytes,Kbytes...)
+  * Ex: $ ls -lh (human readable, mostra os tamanhos em bytes, kilobytes...)
 * a maioria dos comandos oferecem muitas opções
 * podem ser usados juntos como mostrado acima ou com a sintaxe completa
   * Ex: $ ls -l -h -a (a mostra os arquivos ocultos)

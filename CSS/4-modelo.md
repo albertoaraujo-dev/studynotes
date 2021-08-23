@@ -1,6 +1,6 @@
 # Box model (modelo de caixas)
 
-  * quase tudo são caixas no CSS
+  * quase tudo no CSS são caixas
   * toda caixa tem conteúdo dentro dela, espaços dentro dela, espaços entre elas
   * podem ficar ao lado da outra, em cima, embaixo
   * elementos HTML são caixas

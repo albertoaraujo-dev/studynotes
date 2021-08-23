@@ -1,6 +1,6 @@
 # Funções
 
-  * nome seguido de abre e fecha parentesis nome()
+  * nome seguido de abre e fecha parênteses nome()
   * recebe argumentos
 
 

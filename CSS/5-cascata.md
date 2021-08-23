@@ -1,4 +1,4 @@
-# Cascading
+# Cascading (Cascata)
 
 A escolha do browser de qual regra aplicar, caso haja muitas regras para o mesmo elemento.
 
@@ -28,6 +28,7 @@ inline > tag style > tag link
 
 ### Regra !important
 
+* Sobrescreve a força de especifidade
 * Cuidado com o uso
 * Não é considerado uma boa prática
 * Quebra o fluxo natural da cascata

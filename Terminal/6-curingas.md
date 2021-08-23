@@ -1,4 +1,4 @@
-# Curinga
+# Curingas
   * Podemos usar * ou ? como curinga para copiar, mover etc.. vários arquivos
 
 $ mv diretório/arqu* diretório2

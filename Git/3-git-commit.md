@@ -13,7 +13,7 @@ $ git commit -m "Primeiro Commit" (-m é de message)
 
 * podemos fazer o add + commit caso o arquivo já esteja rastreado (o arquivo ja existe no repositório, e queremos apenas fazer modificações)
   
-$ git coomit -am "commit com add"
+$ git commit -am "commit com add"
 
 ## Estágios dos arquivos
 
@@ -43,6 +43,6 @@ $ git push
 * os commits são guardados em hash
 * checksum - converte dados em números
 * única e íntegra
-* 40 caracteres exadecimais
+* 40 caracteres exa decimais
 * 0 até 9 e a até f
-* guarda informações (parent, author, menssagem)
+* guarda informações (parent, author, mensagem)
