@@ -5,7 +5,6 @@
   * Cria espaços para os elementos filhos habitarem
   * Pode ser usado em conjunto com flex em elementos diferentes
 
-
 <body>
   <header>Topo</header>
   <main>Conteúdo</main>
